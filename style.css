@@ -20,7 +20,6 @@ body{
     background-position: center;
     padding: 10px 8%;
     position: relative;
-    transition: .5 ease;
 }
 
 /* -------navbar------- */
@@ -30,7 +29,6 @@ nav{
     align-items: center;
     padding: 10px 0;
     justify-content: space-between;
-    transition: .5 ease-in-out;
 }
 
 nav img{

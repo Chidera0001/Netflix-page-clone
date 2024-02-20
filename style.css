@@ -265,6 +265,32 @@ input[type="radio"]{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+.fade {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fade.show {
+    opacity: 1;
+}
+.slide-in {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide-in.show {
+    transform: translateY(0);
+}
+.slide-down {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.slide-down.show {
+    max-height: 1000px; /* Adjust the value as needed */
+}
+
 
 /* ----------media-query--------- */
 

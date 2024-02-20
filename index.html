@@ -11,19 +11,11 @@
     integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e9T9hXmJ58bldgTk+"
     crossorigin="anonymous"
   />
-  <style>
-    .features {
-      transition: all 0.5s ease-in-out;
-    }
-    .faq {
-      transition: all 0.5s ease-in-out;
-    }
-  </style>
   <script src="script.js"></script>
   </head>
   <body>
     <div class="header">
-      <nav>
+      <nav class="fade">
         <img src="img/logo.png" class="logo" />
         <div>
           <button class="language-btn">
@@ -32,7 +24,7 @@
           <button>Sign In</button>
         </div>
       </nav>
-      <div class="header-content">
+      <div class="header-content slide-in">
         <h1>Unlimited movies, TV shows and more.</h1>
         <h3>Watch anywhere. Cancel anytime.</h3>
         <p>
@@ -46,7 +38,7 @@
     </div>
 
     <div class="features" id="features">
-      <div class="row">
+      <div class="row fade">
         <div class="text-col">
           <h2>Enjoy on your TV</h2>
           <p>
@@ -98,7 +90,7 @@
 
     <div class="faq">
       <h2>Frequently Asked Questions</h2>
-      <ul class="accordion">
+      <ul class="accordion slide-down">
         <li>
           <input type="radio" name="accordion" id="first" />
           <label for="first">What is Netflix?</label>
@@ -196,7 +188,7 @@
       </form>
     </div>
 
-    <div class="footer">
+    <div class="footer fade">
       <h2>Question? call 001-326-569</h2>
 
       <div class="row">

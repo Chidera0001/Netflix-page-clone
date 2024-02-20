@@ -115,7 +115,6 @@ nav button{
 .features{
     padding: 50px 12%;
     font-size: 22px;
-    transition: all 0.5s ease-in-out;
 }
 
 .row{
@@ -152,7 +151,6 @@ nav button{
     padding: 10px 12%;
     text-align: center;
     font-size: 18px;
-    transition: all 0.5s ease-in-out;
 }
 
 .faq h2{
@@ -265,32 +263,6 @@ input[type="radio"]{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.fade {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.fade.show {
-    opacity: 1;
-}
-.slide-in {
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
-}
-
-.slide-in.show {
-    transform: translateY(0);
-}
-.slide-down {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-}
-
-.slide-down.show {
-    max-height: 1000px; /* Adjust the value as needed */
-}
-
 
 /* ----------media-query--------- */
 
